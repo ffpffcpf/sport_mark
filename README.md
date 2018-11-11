@@ -23,5 +23,8 @@
 > 肌肉维度  
 
 
-
+## 项目构建问题：  
+1. 当启动Django启动是报django.db.utils.OperationalError: 2059  
+原因：mysql密码加密方式和Django的加密方式不同  
+解决方案：[需要修改mysql中的密码加密方式](https://blog.csdn.net/weekdawn/article/details/81039382)
 
